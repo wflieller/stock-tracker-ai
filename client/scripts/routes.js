@@ -1,23 +1,22 @@
-if (Meteor.isClient) {
-  // counter starts at 0
-  Session.setDefault('counter', 0);
-
-  Template.hello.helpers({
-    counter: function () {
-      return Session.get('counter');
-    }
-  });
-
-  Template.hello.events({
-    'click button': function () {
-      // increment the counter when button is clicked
-      Session.set('counter', Session.get('counter') + 1);
-    }
-  });
-}
-
-if (Meteor.isServer) {
-  Meteor.startup(function () {
-    // code to run on server at startup
-  });
+angular
+  .module('stockAiApp')
+  .config(config);
+ 
+function config($stateProvider, $urlRouterProvider) {
+  $stateProvider
+    .state('tab', {
+      url: '/tab',
+      abstract: true,
+      templateUrl: 'client/templates/tabs.html'
+    })
+    .state('tab.stocks', {
+      url: '/stocks',
+      views: {
+        'tab-stocks': {
+          templateUrl: 'client/templates/stocks.html'
+        }
+      }
+    });
+ 
+  $urlRouterProvider.otherwise('tab/stocks');
 }
