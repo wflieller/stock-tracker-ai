@@ -1,1 +1,4 @@
 /* CSS declarations go here */
+.bar.bar-dark .title {
+	color: #33CD46;
+}
