@@ -8,17 +8,6 @@ function config($stateProvider, $urlRouterProvider) {
             url: '/tab',
             abstract: true,
             templateUrl: 'client/templates/tabs.html',
-            resolve: {
-                nyse() {
-                        return Meteor.subscribe('nyses');
-                    },
-                    nasdaq() {
-                        return Meteor.subscribe('nasdaqs');
-                    },
-                    amex() {
-                        return Meteor.subscribe('amexs');
-                    }
-            }
 
         })
         .state('tab.stocks', {

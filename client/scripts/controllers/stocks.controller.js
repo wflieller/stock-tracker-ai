@@ -10,14 +10,14 @@ function StocksCtrl($scope, $reactive) {
     this.subscribe('amexs');
 
     this.helpers({
-            nasdaq() {
-                return Nasdaqs.find();
+            nasdaq: () => {
+                return Nasdaqs.find({});
             },
-            nyse() {
-                return Nyses.find();
+            nyse: () => {
+                return Nyses.find({});
             },
-            amex() {
-                return Amexs.find();
+            amex: () => {
+                return Amexs.find({});
             }
     });
 

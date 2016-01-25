@@ -7,10 +7,10 @@
             </label>
             <ion-item class="item" type="item-text-wrap" href="#">Placeholder
             </ion-item>
-            <ion-item ng-repeat="stock in stocks.nasdaq" class="item" type="item-text-wrap" href="#">
-                <p>{{ stock.Symbol }}</p>
-                <p>{{ stock.Name }}</p>
-                <p>{{ stock.sector }}</p>
+            <ion-item ng-repeat="item in stocks.amex" class="item" type="item-text-wrap" href="#">
+                <p>{{ item.Symbol }}</p>
+                <p>{{ item.Name }}</p>
+                <p>{{ item.sector }}</p>
             </ion-item>
         </ion-list>
     </ion-content>
