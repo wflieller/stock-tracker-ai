@@ -11,47 +11,55 @@ function config($stateProvider, $urlRouterProvider) {
 
         })
         .state('tab.stocks', {
-                url: '/stocks',
-                views: {
-                    'tab-stocks': {
-                        templateUrl: 'client/templates/stocks.html',
-                        controller: 'StocksCtrl as stocks',
+            url: '/stocks',
+            views: {
+                'tab-stocks': {
+                    templateUrl: 'client/templates/stocks.html',
+                    controller: 'StocksCtrl as stocks',
 
-                    }
-                  }
-                })
-            .state('tab.settings', {
-                url: '/settings',
-                views: {
-                    'tab-settings': {
-                        templateUrl: 'client/templates/settings.html'
-                    }
                 }
-            })
-            .state('tab.watchlist', {
-                url: '/watchlist',
-                views: {
-                    'tab-watchlist': {
-                        templateUrl: 'client/templates/watchlist.html'
-                    }
+            }
+        })
+        .state('tab.settings', {
+            url: '/settings',
+            views: {
+                'tab-settings': {
+                    templateUrl: 'client/templates/settings.html'
                 }
-            })
-            .state('tab.profile', {
-                url: '/profile',
-                views: {
-                    'tab-profile': {
-                        templateUrl: 'client/templates/profile.html'
-                    }
+            }
+        })
+        .state('tab.watchlist', {
+            url: '/watchlist',
+            views: {
+                'tab-watchlist': {
+                    templateUrl: 'client/templates/watchlist.html'
                 }
-            })
-            .state('tab.trending', {
-                url: '/trending',
-                views: {
-                    'tab-trending': {
-                        templateUrl: 'client/templates/trending.html'
-                    }
+            }
+        })
+        .state('tab.profile', {
+            url: '/profile',
+            views: {
+                'tab-profile': {
+                    templateUrl: 'client/templates/profile.html'
                 }
-            });
+            }
+        })
+        .state('tab.trending', {
+            url: '/trending',
+            views: {
+                'tab-trending': {
+                    templateUrl: 'client/templates/trending.html'
+                }
+            }
+        })
 
-            $urlRouterProvider.otherwise('tab/stocks');
-        }
+    .state('login', {
+        url: '/login',
+        templateUrl: 'client/templates/login.html',
+        controller: 'LoginCtrl as logger'
+    });
+
+
+
+    $urlRouterProvider.otherwise('tab/stocks');
+}
