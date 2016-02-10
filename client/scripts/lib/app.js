@@ -1,6 +1,8 @@
+if (Meteor.isClient) {
 angular
   .module('stockAiApp', [
     'angular-meteor',
+    'ui.router',
     'ionic'
   ]);
  
@@ -13,4 +15,6 @@ else {
  
 function onReady() {
   angular.bootstrap(document, ['stockAiApp']);
+}
+
 }

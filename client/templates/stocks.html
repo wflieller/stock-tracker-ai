@@ -1,16 +1,16 @@
 <ion-view view-title="Stocks">
     <ion-content>
-        <ion-list>
+        <ion-list ng-controller="StocksCtrl as stocks">
             <label class="item item-input">
                 <i class="icon ion-search placeholder-icon"></i>
                 <input type="text" placeholder="Search">
             </label>
             <ion-item class="item" type="item-text-wrap" href="#">Placeholder
             </ion-item>
-            <ion-item ng-repeat="item in stocks.amex" class="item" type="item-text-wrap" href="#">
-                <p>{{ item.Symbol }}</p>
-                <p>{{ item.Name }}</p>
-                <p>{{ item.sector }}</p>
+            <ion-item ng-repeat="amex in stocks.amexs" class="item" type="item-text-wrap" href="#">
+                <p>{{ amex.Symbol }}</p>
+                <p>{{ amex.Name }}</p>
+                <p>{{ amex.sector }}</p>
             </ion-item>
         </ion-list>
     </ion-content>

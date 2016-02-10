@@ -53,11 +53,11 @@ function config($stateProvider, $urlRouterProvider) {
             }
         })
 
-    .state('login', {
-        url: '/login',
-        templateUrl: 'client/templates/login.html',
-        controller: 'LoginCtrl as logger'
-    });
+        .state('login', {
+            url: '/login',
+            templateUrl: 'client/templates/login.html',
+            controller: 'LoginCtrl as logger'
+        });
 
 
 
