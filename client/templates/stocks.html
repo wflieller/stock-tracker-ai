@@ -1,17 +1,44 @@
 <ion-view view-title="Stocks">
     <ion-content>
-        <ion-list ng-controller="StocksCtrl as stocks">
+        <ion-list>
             <label class="item item-input">
                 <i class="icon ion-search placeholder-icon"></i>
                 <input type="text" placeholder="Search">
             </label>
-            <ion-item class="item" type="item-text-wrap" href="#">Placeholder
+              <div class="item item-divider">
+                NASDAQ
+            </div>
+            <ion-item 
+            ng-repeat="nstock in stocks.nasdaq | limitTo:10 | orderBy:'-LastSale'" class="item item-icon-right" type="item-text-wrap"
+              href="#/tab/stocks/{{nstock.Symbol}}">
+                <p>{{nstock.Symbol}}</p>
+                <p>{{nstock.Name}}</p>
+                <p>{{nstock.MarketCap}}</p>
+                <i class="icon ion-social-usd icon-accessory">{{nstock.LastSale}}</i>
             </ion-item>
-            <ion-item ng-repeat="amex in stocks.amexs" class="item" type="item-text-wrap" href="#">
-                <p>{{ amex.Symbol }}</p>
-                <p>{{ amex.Name }}</p>
-                <p>{{ amex.sector }}</p>
+
+            <div class="item item-divider">
+                NYSE
+            </div>
+            <ion-item 
+            ng-repeat="ystock in stocks.nyse | limitTo:10 | orderBy:'-LastSale'" class="item item-icon-right" type="item-text-wrap" href="#/tab/stocks/{{ystock.Symbol}}">
+                <p>{{ystock.Symbol}}</p>
+                <p>{{ystock.Name}}</p>
+                <p>{{ystock.MarketCap}}</p> 
+                <i class="icon ion-social-usd icon-accessory">{{ystock.LastSale}}</i>   
             </ion-item>
+
+            <div class="item item-divider">
+                AMEX
+            </div>
+            <ion-item 
+            ng-repeat="astock in stocks.amex | limitTo:10 | orderBy:'-LastSale'" class="item item-icon-right" type="item-text-wrap" href="#/tab/stocks/{{astock.Symbol}}">
+                <p>{{astock.Symbol}}</p>
+                <p>{{astock.Name}}</p>
+                <p>{{astock.MarketCap}}</p> 
+                <i class="icon ion-social-usd icon-accessory">{{astock.LastSale}}</i>
+            </ion-item>
+
         </ion-list>
     </ion-content>
     <!-- <label class="item item-input">

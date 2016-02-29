@@ -15,8 +15,17 @@ function config($stateProvider, $urlRouterProvider) {
             views: {
                 'tab-stocks': {
                     templateUrl: 'client/templates/stocks.html',
-                    controller: 'StocksCtrl as stocks',
+                    controller: 'StocksCtrl as stocks'
+                }
+            }
+        })
 
+    .state('tab.stock', {
+            url: '/stocks/:Symbol',
+            views: {
+                'tab-stocks': {
+                    templateUrl: 'client/templates/stock.html',
+                    controller: 'StockCtrl as stock'
                 }
             }
         })
@@ -53,11 +62,10 @@ function config($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('login', {
-            url: '/login',
-            templateUrl: 'client/templates/login.html',
-            controller: 'LoginCtrl as logger'
-        });
+    .state('login', {
+        url: '/login',
+        templateUrl: 'client/templates/login.html'
+    });
 
 
 

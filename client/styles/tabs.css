@@ -1,4 +1,37 @@
 /* CSS declarations go here */
+
+* {
+    background-color: #040d14 !important;
+    border-color: rgba(51, 205, 95, 0.4) !important;
+}
+
+.item,
+.item h2 {
+    color: #586468 !important;
+}
+
 .bar.bar-dark .title {
-	color: #33CD46;
+    color: #33CD46;
+}
+
+.toggle .track {
+    background-color: #33cd5f !important;
+}
+
+.toggle input:checked + .track .handle {
+    background-color: #33cd5f !important;
+    border: 1px solid #040d14;
+}
+
+.icon {
+    color: #33cd5f !important;
+}
+
+input {
+    color: #586468 !important;
+}
+
+
+.item-icon-right .icon-accessory {
+	padding: 10px;
 }
