@@ -20,15 +20,67 @@ function config($stateProvider, $urlRouterProvider) {
             }
         })
 
-    .state('tab.stock', {
-            url: '/stocks/:Symbol',
+        .state('tab.nasdaqs', {
+            url: '/stocks/nasdaq',
             views: {
                 'tab-stocks': {
-                    templateUrl: 'client/templates/stock.html',
-                    controller: 'StockCtrl as stock'
+                    templateUrl: 'client/templates/nasdaqs.html',
+                    controller: 'NasdaqsCtrl as nasdaqs'
                 }
             }
         })
+
+        .state('tab.nasdaq', {
+            url: '/stocks/nasdaq/:stockId',
+            views: {
+                'tab-stocks': {
+                    templateUrl: 'client/templates/stock.html',
+                    controller: 'NasdaqCtrl as stock'
+                }
+            }
+        })
+
+        .state('tab.nyses', {
+            url: '/stocks/nyse',
+            views: {
+                'tab-stocks': {
+                    templateUrl: 'client/templates/nyses.html',
+                    controller: 'NysesCtrl as nyses'
+                }
+            }
+        })
+
+        .state('tab.nyse', {
+            url: '/stocks/nyse/:stockId',
+            views: {
+                'tab-stocks': {
+                    templateUrl: 'client/templates/stock.html',
+                    controller: 'NyseCtrl as stock'
+                }
+            }
+        })
+
+        .state('tab.amexs', {
+            url: '/stocks/amex',
+            views: {
+                'tab-stocks': {
+                    templateUrl: 'client/templates/amexs.html',
+                    controller: 'AmexsCtrl as amexs'
+                }
+            }
+        })
+
+        .state('tab.amex', {
+            url: '/stocks/amex/:stockId',
+            views: {
+                'tab-stocks': {
+                    templateUrl: 'client/templates/stock.html',
+                    controller: 'AmexCtrl as stock'
+                }
+            }
+        })
+
+    
         .state('tab.settings', {
             url: '/settings',
             views: {

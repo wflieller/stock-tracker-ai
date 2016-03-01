@@ -5,96 +5,25 @@
                 <i class="icon ion-search placeholder-icon"></i>
                 <input type="text" placeholder="Search">
             </label>
-              <div class="item item-divider">
-                NASDAQ
-            </div>
-            <ion-item 
-            ng-repeat="nstock in stocks.nasdaq | limitTo:10 | orderBy:'-LastSale'" class="item item-icon-right" type="item-text-wrap"
-              href="#/tab/stocks/{{nstock.Symbol}}">
-                <p>{{nstock.Symbol}}</p>
-                <p>{{nstock.Name}}</p>
-                <p>{{nstock.MarketCap}}</p>
-                <i class="icon ion-social-usd icon-accessory">{{nstock.LastSale}}</i>
+              <ion-item class="item item-icon-right" type="item-text-wrap"
+              href="#/tab/stocks/nasdaq">
+                
+                <p>NASDAQ</p><i class="icon ion-chevron-right icon-accessory"></i>
+                
             </ion-item>
-
-            <div class="item item-divider">
-                NYSE
-            </div>
-            <ion-item 
-            ng-repeat="ystock in stocks.nyse | limitTo:10 | orderBy:'-LastSale'" class="item item-icon-right" type="item-text-wrap" href="#/tab/stocks/{{ystock.Symbol}}">
-                <p>{{ystock.Symbol}}</p>
-                <p>{{ystock.Name}}</p>
-                <p>{{ystock.MarketCap}}</p> 
-                <i class="icon ion-social-usd icon-accessory">{{ystock.LastSale}}</i>   
+            <ion-item class="item item-icon-right" type="item-text-wrap"
+              href="#/tab/stocks/nyse">
+                
+                <p>NYSE</p><i class="icon ion-chevron-right icon-accessory"></i>
+                
             </ion-item>
-
-            <div class="item item-divider">
-                AMEX
-            </div>
-            <ion-item 
-            ng-repeat="astock in stocks.amex | limitTo:10 | orderBy:'-LastSale'" class="item item-icon-right" type="item-text-wrap" href="#/tab/stocks/{{astock.Symbol}}">
-                <p>{{astock.Symbol}}</p>
-                <p>{{astock.Name}}</p>
-                <p>{{astock.MarketCap}}</p> 
-                <i class="icon ion-social-usd icon-accessory">{{astock.LastSale}}</i>
+            <ion-item class="item item-icon-right" type="item-text-wrap"
+              href="#/tab/stocks/amex">
+                
+                <p>AMEX</p><i class="icon ion-chevron-right icon-accessory"></i>
+                
             </ion-item>
 
         </ion-list>
     </ion-content>
-    <!-- <label class="item item-input">
-                <i class="icon ion-search placeholder-icon"></i>
-                <input type="text" placeholder="Search">
-            </label>
-            <div class="item item-divider">
-                NYSE
-            </div>
-			
-			
-            <a class="item" href="#">
-    Stock Example
-
-  </a>
-            <a class="item" href="#">
-    Stock Example
-  </a>
-            <a class="item" href="#">
-    Stock Example
-  </a>
-            <a class="item" href="#">
-    Stock Example
-  </a>
-            <a class="item" href="#">
-    Stock Example
-  </a>
-            <div class="item item-divider">
-                NASDAQ
-            </div>
-            <ion-item
-            ng-repeat="item in nasdaqs.data"
-            class="item"
-            type="item-text-wrap"
-            href="#">
-            <p>{{item.Symbol}}, {{item.Name}}, {{item.sector}}</p>
- 			</ion-item>
-
-            <div class="item item-divider">
-                AMEX
-            </div>
-            <a class="item" href="#">
-    Stock Example
-  </a>
-            <a class="item" href="#">
-    Stock Example
-  </a>
-            <a class="item" href="#">
-    Stock Example
-  </a>
-            <a class="item" href="#">
-    Stock Example
-  </a>
-            <a class="item" href="#">
-    Stock Example
-  </a>
-        </div>
-    </ion-content> -->
 </ion-view>

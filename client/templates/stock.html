@@ -1,7 +1,43 @@
-<ion-view title="{{stock.data.Name}}">
-  <ion-nav-buttons side="right">
-    <button class="button"><h1>{{stock.data.Symbol}}"</h1></button>
-  </ion-nav-buttons>
-  <ion-content>
-  </ion-content>
+<ion-view title="{{stock.data.Symbol}}">
+    <ion-nav-buttons side="right">
+        <button class="button">{{stock.data.Symbol}}</button>
+    </ion-nav-buttons>
+    <div class="bar bar-subheader">
+            <h3 class="title">{{stock.data.Name}}</h3>
+        </div>
+    <ion-content>
+        
+        <div class="list card">
+            <div class="item">
+            <h3 class="title">Symbol:</h3>
+                <h2>{{stock.data.Symbol}}</h2>
+            </div>
+            <div class="item">
+            <h3 class="title">Last Sale Price:</h3>
+                <p>{{stock.data.LastSale}}</p>
+            </div>
+            <div class="item">
+            <h3 class="title">Market Cap:</h3>
+                <p>{{stock.data.MarketCap}}</p>
+            </div>
+            <div class="item">
+            <h3 class="title">IPO Year:</h3>
+                <p>{{stock.data.IPOyear}}</p>
+            </div>
+            <div class="item">
+            <h3 class="title">Sector:</h3>
+                <p>{{stock.data.Sector}}</p>
+            </div>
+            <div class="item">
+            <h3 class="title">Industry:</h3>
+                <p>{{stock.data.industry}}</p>
+            </div>
+            <div class="item item-image">
+                <img src="img/giphy.gif">
+            </div>
+            <a class="item item-icon-left assertive" href="#">
+                <i class="icon ion-flag"></i> Start Watching
+            </a>
+        </div>
+    </ion-content>
 </ion-view>

@@ -1,0 +1,21 @@
+<ion-view view-title="Amex">
+    <ion-content>
+        <ion-list>
+            <label class="item item-input">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input type="text" placeholder="Search">
+            </label>
+            <ion-item 
+            collection-repeat="stock in amexs.data | orderBy:'Symbol'" class="item item-icon-right" type="item-text-wrap"
+              href="#/tab/stocks/amex/{{stock.Symbol}}">
+                <p>{{stock.Symbol}}</p>
+                <p>{{stock.Name}}</p>
+                <p>{{stock.MarketCap}}</p><i class="icon ion-information-circled icon-accessory"></i>
+                <i class="icon ion-social-usd icon-accessory">{{stock.LastSale}}</i>
+            </ion-item>
+
+          
+
+        </ion-list>
+    </ion-content>
+    </ion-view>

@@ -1,7 +1,19 @@
 if (Meteor.isServer) {
 
-    Meteor.publish('nasdaqs', function() {
-        return Nasdaqs.find({});
+    Meteor.publish('nasdaqs', function(searchString) {
+
+        if (!searchString || searchString == null) {
+            searchString = '';
+        }
+
+        let selector = {
+            Symbol: {
+                '$regex': '.*' + searchString || '' + '.*',
+                '$options': 'i'
+            },
+
+        }
+        return Nasdaqs.find(selector);
     });
 
 
@@ -13,5 +25,5 @@ if (Meteor.isServer) {
     Meteor.publish('amexs', function() {
         return Amexs.find({});
     });
-    
+
 }
