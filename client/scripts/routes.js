@@ -80,6 +80,26 @@ function config($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('tab.sps', {
+            url: '/stocks/sp',
+            views: {
+                'tab-stocks': {
+                    templateUrl: 'client/templates/sps.html',
+                    controller: 'SpsCtrl as sps'
+                }
+            }
+        })
+
+        .state('tab.sp', {
+            url: '/stocks/sp/:stockId',
+            views: {
+                'tab-stocks': {
+                    templateUrl: 'client/templates/stock.html',
+                    controller: 'SpCtrl as stock'
+                }
+            }
+        })
+
     
         .state('tab.settings', {
             url: '/settings',
@@ -89,6 +109,7 @@ function config($stateProvider, $urlRouterProvider) {
                 }
             }
         })
+
         .state('tab.watchlist', {
             url: '/watchlist',
             views: {
@@ -97,6 +118,7 @@ function config($stateProvider, $urlRouterProvider) {
                 }
             }
         })
+
         .state('tab.profile', {
             url: '/profile',
             views: {
@@ -105,6 +127,7 @@ function config($stateProvider, $urlRouterProvider) {
                 }
             }
         })
+
         .state('tab.trending', {
             url: '/trending',
             views: {

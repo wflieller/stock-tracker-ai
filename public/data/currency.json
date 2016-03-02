@@ -1,0 +1,2606 @@
+{
+"list" : { 
+"meta" : { 
+"type" : "resource-list",
+"start" : 0,
+"count" : 173
+},
+"resources" : [ 
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/KRW",
+"price" : "1228.594971",
+"symbol" : "KRW=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "SILVER 1 OZ 999 NY",
+"price" : "0.067875",
+"symbol" : "XAG=X",
+"ts" : "1456864903",
+"type" : "currency",
+"utctime" : "2016-03-01T20:41:43+0000",
+"volume" : "270"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/VND",
+"price" : "22302.000000",
+"symbol" : "VND=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/BOB",
+"price" : "6.850000",
+"symbol" : "BOB=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/MOP",
+"price" : "8.004650",
+"symbol" : "MOP=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/BDT",
+"price" : "78.516953",
+"symbol" : "BDT=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/MDL",
+"price" : "19.969999",
+"symbol" : "MDL=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/VEF",
+"price" : "6.350000",
+"symbol" : "VEF=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/GEL",
+"price" : "2.465000",
+"symbol" : "GEL=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/ISK",
+"price" : "130.014999",
+"symbol" : "ISK=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/BYR",
+"price" : "21350.000000",
+"symbol" : "BYR=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/THB",
+"price" : "35.600498",
+"symbol" : "THB=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/MXV ",
+"price" : "2.810000",
+"symbol" : "MXV=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/TND",
+"price" : "2.051150",
+"symbol" : "TND=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/JMD",
+"price" : "121.209999",
+"symbol" : "JMD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/DKK",
+"price" : "6.863100",
+"symbol" : "DKK=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/SRD",
+"price" : "4.000000",
+"symbol" : "SRD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/BWP",
+"price" : "11.333450",
+"symbol" : "BWP=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/NOK",
+"price" : "8.644450",
+"symbol" : "NOK=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/MUR",
+"price" : "35.950001",
+"symbol" : "MUR=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/AZN",
+"price" : "1.556950",
+"symbol" : "AZN=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/INR",
+"price" : "67.753448",
+"symbol" : "INR=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/MGA",
+"price" : "3217.350098",
+"symbol" : "MGA=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/CAD",
+"price" : "1.342450",
+"symbol" : "CAD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/XAF",
+"price" : "603.595093",
+"symbol" : "XAF=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/LBP",
+"price" : "1508.900024",
+"symbol" : "LBP=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/XDR",
+"price" : "0.724300",
+"symbol" : "XDR=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/IDR",
+"price" : "13270.000000",
+"symbol" : "IDR=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/IEP",
+"price" : "0.699154",
+"symbol" : "IEP=X",
+"ts" : "1435035180",
+"type" : "currency",
+"utctime" : "2015-06-23T04:53:00+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/AUD",
+"price" : "1.393631",
+"symbol" : "AUD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/MMK",
+"price" : "1240.099976",
+"symbol" : "MMK=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/LYD",
+"price" : "1.354950",
+"symbol" : "LYD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/ZAR",
+"price" : "15.596450",
+"symbol" : "ZAR=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/IQD",
+"price" : "1107.099976",
+"symbol" : "IQD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/XPF",
+"price" : "109.806053",
+"symbol" : "XPF=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/TJS",
+"price" : "7.869600",
+"symbol" : "TJS=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/CUP",
+"price" : "1.000000",
+"symbol" : "CUP=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/UGX",
+"price" : "3340.000000",
+"symbol" : "UGX=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/NGN",
+"price" : "199.050003",
+"symbol" : "NGN=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/PGK",
+"price" : "3.041100",
+"symbol" : "PGK=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/TOP",
+"price" : "2.236785",
+"symbol" : "TOP=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/TMT",
+"price" : "3.500000",
+"symbol" : "TMT=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/KES",
+"price" : "101.619499",
+"symbol" : "KES=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/CRC",
+"price" : "534.679993",
+"symbol" : "CRC=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/MZN",
+"price" : "48.689999",
+"symbol" : "MZN=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/SYP",
+"price" : "219.800995",
+"symbol" : "SYP=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/ANG",
+"price" : "1.790000",
+"symbol" : "ANG=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/ZMW",
+"price" : "11.380000",
+"symbol" : "ZMW=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/BRL",
+"price" : "3.926550",
+"symbol" : "BRL=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/BSD",
+"price" : "1.000695",
+"symbol" : "BSD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/NIO",
+"price" : "28.156300",
+"symbol" : "NIO=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/GNF",
+"price" : "7653.750000",
+"symbol" : "GNF=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/BMD",
+"price" : "0.999950",
+"symbol" : "BMD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/SLL",
+"price" : "4070.000000",
+"symbol" : "SLL=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/MKD",
+"price" : "56.654999",
+"symbol" : "MKD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/BIF",
+"price" : "1568.599976",
+"symbol" : "BIF=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/LAK",
+"price" : "8124.950195",
+"symbol" : "LAK=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/BHD",
+"price" : "0.377050",
+"symbol" : "BHD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/SHP",
+"price" : "0.717800",
+"symbol" : "SHP=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/BGN",
+"price" : "1.799750",
+"symbol" : "BGN=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/SGD",
+"price" : "1.400700",
+"symbol" : "SGD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/CNY",
+"price" : "6.552100",
+"symbol" : "CNY=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/EUR",
+"price" : "0.920133",
+"symbol" : "EUR=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/TTD",
+"price" : "6.509300",
+"symbol" : "TTD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/SCR",
+"price" : "13.304950",
+"symbol" : "SCR=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/BBD",
+"price" : "2.000000",
+"symbol" : "BBD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/SBD",
+"price" : "8.084602",
+"symbol" : "SBD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/MAD",
+"price" : "9.907950",
+"symbol" : "MAD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/GTQ",
+"price" : "7.688500",
+"symbol" : "GTQ=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/MWK",
+"price" : "746.885010",
+"symbol" : "MWK=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/PKR",
+"price" : "104.724998",
+"symbol" : "PKR=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/ITL",
+"price" : "1700.272217",
+"symbol" : "ITL=X",
+"ts" : "1434960300",
+"type" : "currency",
+"utctime" : "2015-06-22T08:05:00+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/PEN",
+"price" : "3.516250",
+"symbol" : "PEN=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/AED",
+"price" : "3.673150",
+"symbol" : "AED=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/LVL",
+"price" : "0.620550",
+"symbol" : "LVL=X",
+"ts" : "1434962220",
+"type" : "currency",
+"utctime" : "2015-06-22T08:37:00+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "PALLADIUM 1 OZ",
+"price" : "0.001932",
+"symbol" : "XPD=X",
+"ts" : "1456871767",
+"type" : "currency",
+"utctime" : "2016-03-01T22:36:07+0000",
+"volume" : "94"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/UAH",
+"price" : "27.139999",
+"symbol" : "UAH=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/FRF",
+"price" : "5.760100",
+"symbol" : "FRF=X",
+"ts" : "1434958260",
+"type" : "currency",
+"utctime" : "2015-06-22T07:31:00+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/LRD",
+"price" : "84.660004",
+"symbol" : "LRD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/LSL",
+"price" : "15.587000",
+"symbol" : "LSL=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/SEK",
+"price" : "8.621100",
+"symbol" : "SEK=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/RON",
+"price" : "4.111100",
+"symbol" : "RON=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/XOF",
+"price" : "603.595093",
+"symbol" : "XOF=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/COP",
+"price" : "3228.760010",
+"symbol" : "COP=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/CDF",
+"price" : "923.000000",
+"symbol" : "CDF=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD",
+"price" : "1.000000",
+"symbol" : "USD=X",
+"ts" : "1454052300",
+"type" : "currency",
+"utctime" : "2016-01-29T07:25:00+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/TZS",
+"price" : "2190.699951",
+"symbol" : "TZS=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/GHS",
+"price" : "3.935000",
+"symbol" : "GHS=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/NPR",
+"price" : "108.680000",
+"symbol" : "NPR=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/ZWL",
+"price" : "322.355011",
+"symbol" : "ZWL=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/SOS",
+"price" : "607.549988",
+"symbol" : "SOS=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/DZD",
+"price" : "108.834999",
+"symbol" : "DZD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/FKP",
+"price" : "0.659700",
+"symbol" : "FKP=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/LKR",
+"price" : "144.654999",
+"symbol" : "LKR=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/JPY",
+"price" : "114.074501",
+"symbol" : "JPY=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/CHF",
+"price" : "0.997505",
+"symbol" : "CHF=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/KYD",
+"price" : "0.820000",
+"symbol" : "KYD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/CLP",
+"price" : "696.669983",
+"symbol" : "CLP=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/IRR",
+"price" : "30195.000000",
+"symbol" : "IRR=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/AFN",
+"price" : "68.629997",
+"symbol" : "AFN=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/DJF",
+"price" : "177.634995",
+"symbol" : "DJF=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/SVC",
+"price" : "8.727000",
+"symbol" : "SVC=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/PLN",
+"price" : "3.984100",
+"symbol" : "PLN=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/PYG",
+"price" : "5722.540039",
+"symbol" : "PYG=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/ERN",
+"price" : "16.180000",
+"symbol" : "ERN=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/ETB",
+"price" : "21.344000",
+"symbol" : "ETB=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/ILS",
+"price" : "3.883750",
+"symbol" : "ILS=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/TWD",
+"price" : "33.028000",
+"symbol" : "TWD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/KPW",
+"price" : "900.000000",
+"symbol" : "KPW=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/SIT",
+"price" : "216.486755",
+"symbol" : "SIT=X",
+"ts" : "1438003500",
+"type" : "currency",
+"utctime" : "2015-07-27T13:25:00+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/GIP",
+"price" : "0.721400",
+"symbol" : "GIP=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/BND",
+"price" : "1.400600",
+"symbol" : "BND=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/HNL",
+"price" : "22.610701",
+"symbol" : "HNL=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/CZK",
+"price" : "24.873501",
+"symbol" : "CZK=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/HUF",
+"price" : "284.924988",
+"symbol" : "HUF=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/BZD",
+"price" : "1.995000",
+"symbol" : "BZD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/DEM",
+"price" : "1.717450",
+"symbol" : "DEM=X",
+"ts" : "1434958500",
+"type" : "currency",
+"utctime" : "2015-06-22T07:35:00+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/JOD",
+"price" : "0.709000",
+"symbol" : "JOD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/RWF",
+"price" : "766.159973",
+"symbol" : "RWF=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/LTL",
+"price" : "3.048700",
+"symbol" : "LTL=X",
+"ts" : "1434962340",
+"type" : "currency",
+"utctime" : "2015-06-22T08:39:00+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/RUB",
+"price" : "73.199501",
+"symbol" : "RUB=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/RSD",
+"price" : "113.650002",
+"symbol" : "RSD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/WST",
+"price" : "2.613082",
+"symbol" : "WST=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "PLATINUM 1 UZ 999",
+"price" : "0.001068",
+"symbol" : "XPT=X",
+"ts" : "1456871782",
+"type" : "currency",
+"utctime" : "2016-03-01T22:36:22+0000",
+"volume" : "490"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/NAD",
+"price" : "15.587000",
+"symbol" : "NAD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/PAB",
+"price" : "1.000570",
+"symbol" : "PAB=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/DOP",
+"price" : "45.700001",
+"symbol" : "DOP=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/ALL",
+"price" : "126.989502",
+"symbol" : "ALL=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/HTG",
+"price" : "61.439301",
+"symbol" : "HTG=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/AMD",
+"price" : "492.040009",
+"symbol" : "AMD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/KMF",
+"price" : "452.696350",
+"symbol" : "KMF=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/MRO",
+"price" : "343.000000",
+"symbol" : "MRO=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/HRK",
+"price" : "6.999550",
+"symbol" : "HRK=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/ECS",
+"price" : "25000.000000",
+"symbol" : "ECS=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/KHR",
+"price" : "4014.500000",
+"symbol" : "KHR=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/PHP",
+"price" : "47.225498",
+"symbol" : "PHP=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/CYP",
+"price" : "0.519550",
+"symbol" : "CYP=X",
+"ts" : "1435035300",
+"type" : "currency",
+"utctime" : "2015-06-23T04:55:00+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/KWD",
+"price" : "0.300250",
+"symbol" : "KWD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/XCD",
+"price" : "2.700000",
+"symbol" : "XCD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "COPPER HIGHGRADE",
+"price" : "0.466962",
+"symbol" : "XCP=X",
+"ts" : "1456868188",
+"type" : "currency",
+"utctime" : "2016-03-01T21:36:28+0000",
+"volume" : "449"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/CNH",
+"price" : "6.549750",
+"symbol" : "CNH=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/SDG",
+"price" : "6.100100",
+"symbol" : "SDG=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/CLF",
+"price" : "0.024600",
+"symbol" : "CLF=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/KZT",
+"price" : "348.309937",
+"symbol" : "KZT=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/TRY",
+"price" : "2.936500",
+"symbol" : "TRY=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/FJD",
+"price" : "2.144500",
+"symbol" : "FJD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/NZD",
+"price" : "1.506592",
+"symbol" : "NZD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/BAM",
+"price" : "1.799750",
+"symbol" : "BAM=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/BTN",
+"price" : "67.925003",
+"symbol" : "BTN=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/STD",
+"price" : "22543.500000",
+"symbol" : "STD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/VUV",
+"price" : "113.050003",
+"symbol" : "VUV=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/MVR",
+"price" : "15.400000",
+"symbol" : "MVR=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/AOA",
+"price" : "158.828995",
+"symbol" : "AOA=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/EGP",
+"price" : "7.824000",
+"symbol" : "EGP=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/QAR",
+"price" : "3.641550",
+"symbol" : "QAR=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/OMR",
+"price" : "0.385000",
+"symbol" : "OMR=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/CVE",
+"price" : "101.519997",
+"symbol" : "CVE=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/KGS",
+"price" : "73.888802",
+"symbol" : "KGS=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/MXN",
+"price" : "17.922100",
+"symbol" : "MXN=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/MYR",
+"price" : "4.140350",
+"symbol" : "MYR=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/GYD",
+"price" : "207.210007",
+"symbol" : "GYD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/SZL",
+"price" : "15.587000",
+"symbol" : "SZL=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/YER",
+"price" : "215.050003",
+"symbol" : "YER=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/SAR",
+"price" : "3.750150",
+"symbol" : "SAR=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/UYU",
+"price" : "32.575001",
+"symbol" : "UYU=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/GBP",
+"price" : "0.716687",
+"symbol" : "GBP=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/UZS",
+"price" : "2846.629883",
+"symbol" : "UZS=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/GMD",
+"price" : "39.174999",
+"symbol" : "GMD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/AWG",
+"price" : "1.790000",
+"symbol" : "AWG=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/MNT",
+"price" : "2031.500000",
+"symbol" : "MNT=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "GOLD 1 OZ",
+"price" : "0.000812",
+"symbol" : "XAU=X",
+"ts" : "1456869459",
+"type" : "currency",
+"utctime" : "2016-03-01T21:57:39+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/HKD",
+"price" : "7.771940",
+"symbol" : "HKD=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+,
+{
+"resource" : { 
+"classname" : "Quote",
+"fields" : { 
+"name" : "USD/ARS",
+"price" : "15.788450",
+"symbol" : "ARS=X",
+"ts" : "1456871825",
+"type" : "currency",
+"utctime" : "2016-03-01T22:37:05+0000",
+"volume" : "0"
+}
+}
+}
+
+]
+}
+}

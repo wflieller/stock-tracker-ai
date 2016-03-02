@@ -26,4 +26,8 @@ if (Meteor.isServer) {
         return Amexs.find({});
     });
 
+     Meteor.publish('sps', function() {
+        return Sps.find({});
+    });
+
 }

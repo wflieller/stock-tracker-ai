@@ -1,7 +1,8 @@
 angular.module('stockAiApp', [
     'angular-meteor',
     'ui.router',
-    'ionic'
+    'ionic',
+    'accounts.ui'
 ]);
 
 
